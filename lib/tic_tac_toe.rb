@@ -90,7 +90,8 @@ class TicTacToe
    end
 
    def play
-     turn
-     over?
+     if !over?
+       turn
+     end
    end
  end

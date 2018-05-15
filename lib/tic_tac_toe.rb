@@ -90,7 +90,7 @@ class TicTacToe
    end
 
    def play
-     until over? != true || !won?
+     until !over? || !won?
        turn
      end
    end
